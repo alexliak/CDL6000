@@ -160,12 +160,23 @@
               "icon": "lucide-list",
               "title": "Outline of Welcome"
             }
+          },
+          {
+            "id": "c095b5d85c8d089b",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -180,7 +191,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "05a4387c21faf319",
+  "active": "602b279a48bd5f21",
   "lastOpenFiles": [
     "Welcome.md"
   ]
