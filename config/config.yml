@@ -1,0 +1,32 @@
+# CDL6000 System Configuration
+system:
+  name: "CDL6000"
+  version: "1.0.0"
+  description: "Legal Document Classification System"
+
+paths:
+  data: "data/"
+  models: "models/"
+  output: "output/"
+  logs: "logs/"
+
+processing:
+  supported_formats:
+    - pdf
+    - docx
+    - txt
+  max_file_size: 50000000  # 50MB
+
+ml:
+  model:
+    type: "SVM"
+    params:
+      kernel: "linear"
+      C: 1.0
+  features:
+    use_tfidf: true
+    use_ner: true
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
