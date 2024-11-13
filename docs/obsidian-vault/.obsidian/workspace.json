@@ -160,7 +160,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 298.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,7 +173,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6098df49edddc3ab",
+  "active": "942a23b9da356518",
   "lastOpenFiles": [
     "00-overview/test-git-integration.md"
   ]
