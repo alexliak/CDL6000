@@ -1,113 +1,170 @@
-# Corrected Git Commands for Your Structure
+# 🔄 Git Workflow Guide
+*Last Updated: 2024-11-14*
 
-## Step 1: Check Current Structure
+## 📋 Daily Git Workflow
+
+### 1️⃣ Initialize Repository (First Time Only)
 ```bash
-# First, let's verify where we are
-cd D:\CDL6000-project
-dir
+# Initialize Git in project directory
+git init
 
-# Check if we're in the correct location that has the docs/obsidian-vault folder
-dir docs\obsidian-vault
+# Configure Git (if not already done)
+git config --global user.name "your-username"
+git config --global credential.helper manager
+git config --global credential.helper store
 ```
 
-## Step 2: Stage Files (Corrected Paths)
+### 2️⃣ Stage Changes
 
-### Documentation Files
+#### Method 1: Stage All Changes
 ```bash
-# Stage files from docs/obsidian-vault directory
-git add "docs/obsidian-vault/00-overview/daily/2024-11-13/documentation-structure.md"
-git add "docs/obsidian-vault/00-overview/daily/2024-11-13/exploration-setup.md"
-git add "docs/obsidian-vault/00-overview/daily/2024-11-13/implementations-steps.md"
-git add "docs/obsidian-vault/00-overview/daily/2024-11-13/obsidian-appearance.md"
-git add "docs/obsidian-vault/00-overview/daily/2024-11-13/verification-requirements.md"
-git add "docs/obsidian-vault/00-overview/daily/2024-11-13/virtual-environment-setup.md"
-
-# Stage 2024-11-14 files
-git add "docs/obsidian-vault/00-overview/daily/2024-11-14/legal-analysis.md"
-git add "docs/obsidian-vault/00-overview/daily/2024-11-14/legal-citation-pattern-analysis.md"
-git add "docs/obsidian-vault/00-overview/daily/2024-11-14/python-environment-extended.md"
-git add "docs/obsidian-vault/00-overview/daily/2024-11-14/vs-code-setup-guide.md"
-```
-
-### Project Files
-```bash
-# Stage index files
-git add "docs/obsidian-vault/01-specs/index.md"
-git add "docs/obsidian-vault/02-design/index.md"
-git add "docs/obsidian-vault/03-impl/index.md"
-git add "docs/obsidian-vault/04-test/index.md"
-git add "docs/obsidian-vault/05-deploy/index.md"
-git add "docs/obsidian-vault/06-maintain/index.md"
-
-# Stage other project files
-git add "docs/obsidian-vault/01-specs/project-specs.md"
-git add "docs/obsidian-vault/02-design/design-doc.md"
-git add "docs/obsidian-vault/02-design/proposal.md"
-```
-
-### Configuration Files
-```bash
-# Stage setup and configuration files
-git add .gitignore
-git add requirements.txt
-git add setup_env.ps1
-git add setup_env.sh
-
-# Stage VS Code configuration if present
-git add .vscode/settings.json
-```
-
-## Step 3: Alternative Staging Method
-```bash
-# If you want to stage all files in the vault (easier method)
-git add "docs/obsidian-vault/**/*.md"
-
-# Or stage everything except what's in .gitignore
+# Stage everything (easiest method)
 git add .
 ```
 
-## Step 4: Create Initial Commit
+#### Method 2: Stage by Categories
 ```bash
-git commit -m "feat(initial): setup CDL6000 project structure
+# Stage documentation changes
+git add "docs/obsidian-vault/**/*.md"
 
-- Add Obsidian vault structure with documentation
-- Configure development environment
-- Setup project specifications and design docs
-- Initialize implementation structure
+# Stage Python files
+git add "src/**/*.py"
 
-Documentation includes:
-- Legal analysis documentation
-- Development environment setup
-- Project configuration files"
+# Stage configuration files
+git add "*.json"
+git add "*.txt"
 ```
 
-## Step 5: Connect to GitHub
+### 3️⃣ Commit Changes
 ```bash
-git remote add origin https://github.com/alexliak/CDL6000.git
+# Create a semantic commit
+git commit -m "type(scope): description
+
+- Detail point 1
+- Detail point 2
+- Detail point 3"
+```
+
+#### 📝 Commit Types
+| Type | Usage |
+|------|--------|
+| `feat` | New features |
+| `fix` | Bug fixes |
+| `docs` | Documentation |
+| `style` | Formatting |
+| `refactor` | Code restructuring |
+| `test` | Adding tests |
+| `chore` | Maintenance |
+
+### 4️⃣ Remote Operations
+```bash
+# Add remote (first time)
+git remote add origin https://github.com/username/repo.git
+
+# Set main branch
 git branch -M main
+
+# Push changes
 git push -u origin main
 ```
 
-## Daily Workflow (Corrected Paths)
+## 🔍 Common Checks
+
+### Status Check
 ```bash
-# Stage daily changes
-git add "docs/obsidian-vault/00-overview/daily/$(date +%Y-%m-%d)/*.md"
-
-# Stage specific changes
-git add "docs/obsidian-vault/**/*.md"
-
-# Create feature branch
-git checkout -b feature/legal-analysis
-```
-
-## Verification Commands
-```bash
-# Check status
+# View current status
 git status
 
-# View staged files
-git diff --cached --name-only
+# View branch information
+git branch -v
 
-# Check remote connection
+# View remote information
 git remote -v
 ```
+
+### Common Issues & Solutions
+
+#### 🚫 CRLF Warnings
+```plaintext
+warning: LF will be replaced by CRLF...
+```
+➡️ *This is normal on Windows, files will work correctly*
+
+#### 🔄 Remote Already Exists
+```bash
+# Remove old remote and add new
+git remote remove origin
+git remote add origin https://github.com/username/repo.git
+```
+
+## 📌 Best Practices
+
+### Commit Messages
+```bash
+# Good Examples
+feat(docs): add legal analysis documentation
+fix(env): resolve virtual environment path issues
+docs(guide): update development workflow
+```
+
+### Branch Management
+```bash
+# Create feature branch
+git checkout -b feature/name
+
+# Create documentation branch
+git checkout -b docs/section-name
+
+# Switch branches
+git checkout main
+```
+
+## 🎯 Quick Reference
+
+### Daily Commands
+```bash
+# Morning Update
+git pull origin main
+
+# Check Status
+git status
+
+# Stage & Commit
+git add .
+git commit -m "type(scope): message"
+
+# Push Changes
+git push
+```
+
+### File Management
+```bash
+# Stage specific types
+git add "**/*.md"    # All markdown
+git add "**/*.py"    # All Python
+git add "**/*.json"  # All JSON
+
+# Unstage file
+git restore --staged <file>
+```
+
+## ⚠️ Common Warnings
+
+1. **File not found**
+   - Check path spelling
+   - Verify file exists
+   - Use correct slashes (/)
+
+2. **Ignored Files**
+   - Check .gitignore
+   - Use -f to force if needed
+   - Verify path is correct
+
+3. **Remote Issues**
+   - Verify credentials
+   - Check remote URL
+   - Ensure branch exists
+
+---
+
+*💡 Tip: Keep this guide open in a split pane while working for quick reference*

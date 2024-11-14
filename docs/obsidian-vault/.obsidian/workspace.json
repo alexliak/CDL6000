@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06-maintain/git.md",
+                "file": "00-overview/daily/2024-11-14/commit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git"
+              "title": "commit"
             }
           }
         ],
@@ -154,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "06-maintain/git.md"
+                "file": "00-overview/daily/2024-11-14/commit.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of git"
+              "title": "Outline of commit"
             }
           }
         ],
@@ -180,35 +180,35 @@
   },
   "active": "3c7b1817d88ead0e",
   "lastOpenFiles": [
-    "05-deploy/index.md",
-    "00-overview/daily/2024-11-13/virtual-enviroment-setup.md",
+    "00-overview/daily/2024-11-14/template-system-development.md",
+    "00-overview/daily/2024-11-14/commit.md",
+    "00-overview/daily/2024-11-14/daily-logs.md",
+    "templates/rns-001-template.md",
+    "templates/change-log-template.md",
+    "templates/dev-notes-template.md",
+    "templates/backlog-template.md",
+    "templates/system-log-template.md",
+    "templates/version-control-template.md",
+    "templates/dos-oo1-template.md",
+    "templates/tls-oo1-template.md",
+    "templates/daily-note.md",
+    "templates/meeting-note.md",
+    "templates/specification.md",
+    "02-design/markdown-style-guides.md",
     "06-maintain/git.md",
     "06-maintain/development-guide.md",
+    "00-overview/test-git-integration.md",
+    "00-overview/index.md",
+    "05-deploy/index.md",
+    "00-overview/daily/2024-11-13/virtual-enviroment-setup.md",
     "00-overview/daily/2024-11-13/obsidian-appearance.md",
     "00-overview/daily/2024-11-13/implementations-steps.md",
     "00-overview/daily/2024-11-13/documentation-structure.md",
     "00-overview/daily/2024-11-13/exploration-setup.md",
     "00-overview/daily/2024-11-13/virtual-enviroment-troubleshooting.md",
-    "00-overview/daily/2024-11-13/verification-requirements.md",
-    "00-overview/daily/2024-11-14/vs-code-setup-guide.md",
-    "00-overview/daily/2024-11-14/python-enviroment-extended.md",
-    "00-overview/daily/2024-11-14/legal-citation-pattern-analysis.md",
-    "00-overview/daily/2024-11-14/legal-analysis.md",
-    "00-overview/test-git-integration.md",
-    "00-overview/index.md",
-    "01-specs/project-specs.md",
-    "01-specs/index.md",
-    "templates/specification.md",
-    "templates/meeting-note.md",
-    "templates/design-doc.md",
-    "templates/daily-note.md",
-    "02-design/proposal.md",
-    "02-design/design-doc.md",
     "00-overview/daily/2024-11-14",
-    "02-design/index.md",
     "00-overview/daily/2024-11-13",
     "00-overview/daily",
-    "00-overview/daily/2024-11-13.md.md",
     "00-overview/daily"
   ]
 }
