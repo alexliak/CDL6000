@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-overview/daily/2024-11-14/002_legal_tems_analysis_νομική_ορολογία_πρότυπα.md",
+                "file": "00-overview/daily/2024-11-14/11_σύστημα_εξαγωγής_χαρακτηριστικών.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "002_legal_tems_analysis_νομική_ορολογία_πρότυπα"
+              "title": "11_σύστημα_εξαγωγής_χαρακτηριστικών"
             }
           }
         ],
@@ -154,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-overview/daily/2024-11-14/002_legal_tems_analysis_νομική_ορολογία_πρότυπα.md"
+                "file": "00-overview/daily/2024-11-14/11_σύστημα_εξαγωγής_χαρακτηριστικών.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 002_legal_tems_analysis_νομική_ορολογία_πρότυπα"
+              "title": "Outline of 11_σύστημα_εξαγωγής_χαρακτηριστικών"
             }
           }
         ],
@@ -178,10 +178,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6098df49edddc3ab",
+  "active": "86138a37b0ac1dce",
   "lastOpenFiles": [
-    "00-overview/daily/2024-11-14/23_statistical_analysis_legal_cases.md",
+    "00-overview/daily/2025-11-15/version-control.md",
+    "06-maintain/02_git.md",
+    "00-overview/daily/2025-11-15",
     "00-overview/daily/2024-11-14/002_legal_tems_analysis_νομική_ορολογία_πρότυπα.md",
+    "00-overview/daily/2024-11-14/23_statistical_analysis_legal_cases.md",
     "00-overview/daily/2024-11-14/22_requierement_analysis_strategic_plan.md",
     "00-overview/daily/2024-11-14/21_text_classification_anaysis report.md",
     "templates/040_tls_oo1_template.md",
@@ -208,8 +211,6 @@
     "00-overview/daily/2024-11-14/13_error_resolution_log.md",
     "00-overview/daily/2024-11-14/14_gpu_metrics_dev_analysis.md",
     "00-overview/daily/2024-11-14/02_vs_code_setup_guide.md",
-    "01-specs/02_project_complete_specifications.md",
-    "01-specs/01_project_specs.md",
     "03-impl/notebooks/05_optimization.ipynb",
     "03-impl/notebooks/04_initial_modeling.ipynb",
     "03-impl/notebooks/02_text_preprocessing.ipynb",
@@ -218,7 +219,6 @@
     "03-impl/notebooks",
     "00-overview/daily/2024-11-14",
     "00-overview/daily/2024-11-13",
-    "00-overview/daily",
     "00-overview/daily"
   ]
 }
