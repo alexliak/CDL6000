@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "CDL6000"
+version = "0.0.1"
+description = "Legal Text Classification System"
+authors = ["Your Name"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "*"
+numpy = "*"
+matplotlib = "*"
+lexnlp = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
