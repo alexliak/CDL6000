@@ -60,7 +60,7 @@ tags: [templates, documentation, setup]
 
 ## Links
 - [[templates/dos-001|Development Operations Style Guide]]
-- [[06-maintain/development-guide|Development Guide]]
+- [[01_development_guide|Development Guide]]
 - [[templates/daily-template|Daily Log Template]]
 
 #daily #templates #documentation #setup

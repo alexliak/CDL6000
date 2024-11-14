@@ -57,5 +57,6 @@
     },
     "autoCommitMessage": "vault backup: {{date}}"
   },
-  "pluginVersion": "2.28.2"
+  "pluginVersion": "2.28.2",
+  "alwaysUpdateLinks": true
 }

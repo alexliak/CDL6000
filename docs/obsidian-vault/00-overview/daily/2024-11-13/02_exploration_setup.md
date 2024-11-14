@@ -1,6 +1,6 @@
 # Initial Data Exploration Setup
 
-## 1. Create Jupyter Environment
+## 1. Create Jupiter Environment
 ```bash
 # In D:\CDL6000-project
 python -m venv env

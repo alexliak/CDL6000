@@ -63,5 +63,5 @@ Date: 2024-11-14 | Type: Template Development | Status: Complete
 
 ## Related Documentation
 - [[templates/dos-001|DOS Style Guide]]
-- [[06-maintain/development-guide|Dev Guide]]
+- [[01_development_guide|Dev Guide]]
 - [[templates/template-usage|Usage Guide]]
