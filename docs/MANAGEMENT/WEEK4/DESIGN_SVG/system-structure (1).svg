@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
+  <!-- Project Root -->
+  <rect x="50" y="50" width="900" height="500" fill="#f8f9fa" stroke="#212529"/>
+  <text x="60" y="80" fill="#212529" font-family="Arial" font-size="16">CLD6000/</text>
+  
+  <!-- Main Folders -->
+  <g transform="translate(100,100)">
+    <!-- Project Hub -->
+    <rect x="0" y="0" width="150" height="100" fill="#e7f5ff" stroke="#228be6"/>
+    <text x="10" y="25" fill="#228be6" font-family="Arial" font-size="14">00-project-hub/</text>
+    <text x="20" y="45" fill="#495057" font-family="Arial" font-size="12">README.md</text>
+    <text x="20" y="65" fill="#495057" font-family="Arial" font-size="12">timeline.md</text>
+    <text x="20" y="85" fill="#495057" font-family="Arial" font-size="12">requirements.md</text>
+    
+    <!-- Research -->
+    <rect x="200" y="0" width="150" height="100" fill="#fff4e6" stroke="#fd7e14"/>
+    <text x="210" y="25" fill="#fd7e14" font-family="Arial" font-size="14">01-research/</text>
+    <text x="220" y="45" fill="#495057" font-family="Arial" font-size="12">literature/</text>
+    <text x="220" y="65" fill="#495057" font-family="Arial" font-size="12">papers/</text>
+    
+    <!-- Development -->
+    <rect x="400" y="0" width="150" height="100" fill="#f8f9fa" stroke="#212529"/>
+    <text x="410" y="25" fill="#212529" font-family="Arial" font-size="14">02-development/</text>
+    <text x="420" y="45" fill="#495057" font-family="Arial" font-size="12">code/</text>
+    <text x="420" y="65" fill="#495057" font-family="Arial" font-size="12">notebooks/</text>
+    
+    <!-- Weekly Logs -->
+    <rect x="0" y="150" width="150" height="100" fill="#e7f5ff" stroke="#228be6"/>
+    <text x="10" y="175" fill="#228be6" font-family="Arial" font-size="14">weekly-logs/</text>
+    <text x="20" y="195" fill="#495057" font-family="Arial" font-size="12">week1.md</text>
+    <text x="20" y="215" fill="#495057" font-family="Arial" font-size="12">week2.md</text>
+    
+    <!-- Version Control -->
+    <rect x="200" y="150" width="150" height="100" fill="#f8f9fa" stroke="#212529"/>
+    <text x="210" y="175" fill="#212529" font-family="Arial" font-size="14">.git/</text>
+    
+    <!-- Time Tracking -->
+    <rect x="400" y="150" width="150" height="100" fill="#e7f5ff" stroke="#228be6"/>
+    <text x="410" y="175" fill="#228be6" font-family="Arial" font-size="14">time-tracking/</text>
+    <text x="420" y="195" fill="#495057" font-family="Arial" font-size="12">logs.json</text>
+  </g>
+</svg>

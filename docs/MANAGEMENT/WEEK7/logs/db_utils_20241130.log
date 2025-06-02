@@ -1,0 +1,85 @@
+2024-11-30 19:08:44,737 - scripts.utils.db_utils - INFO - Database connection established successfully
+2024-11-30 19:08:44,858 - scripts.utils.db_utils - INFO - Null value analysis completed for legal_cases
+2024-11-30 19:08:44,872 - scripts.utils.db_utils - INFO - Database connection established successfully
+2024-11-30 19:08:44,996 - scripts.utils.db_utils - INFO - Query executed successfully, returned 1 results
+2024-11-30 19:08:44,996 - scripts.utils.db_utils - INFO - Database connection established successfully
+2024-11-30 19:08:45,098 - scripts.utils.db_utils - INFO - Query executed successfully, returned 10 results
+2024-11-30 19:16:31,913 - scripts.utils.db_utils - INFO - Database connection established successfully
+2024-11-30 19:16:32,312 - scripts.utils.db_utils - INFO - Query executed successfully, returned 30 results
+2024-11-30 19:16:32,314 - scripts.utils.db_utils - INFO - Database connection established successfully
+2024-11-30 19:16:32,314 - scripts.utils.db_utils - ERROR - Query execution failed: no such function: STDEV
+Query: 
+WITH stats AS (
+    SELECT 
+        AVG(citation_density) as mean_density,
+        STDEV(citation_density) as std_density
+    FROM text_metrics
+)
+SELECT 
+    lc.case_outcome,
+    tm.citation_density,
+    tm.sentence_complexity
+FROM legal_cases lc
+JOIN text_metrics tm ON lc.case_id = tm.case_id
+CROSS JOIN stats
+WHERE tm.citation_density > mean_density + 2 * std_density
+ORDER BY tm.citation_density DESC
+LIMIT 10;
+
+2024-11-30 19:16:42,035 - scripts.utils.db_utils - INFO - Database connection established successfully
+2024-11-30 19:16:42,372 - scripts.utils.db_utils - INFO - Query executed successfully, returned 30 results
+2024-11-30 19:16:42,373 - scripts.utils.db_utils - INFO - Database connection established successfully
+2024-11-30 19:16:42,373 - scripts.utils.db_utils - ERROR - Query execution failed: no such function: STDEV
+Query: 
+WITH stats AS (
+    SELECT 
+        AVG(citation_density) as mean_density,
+        STDEV(citation_density) as std_density
+    FROM text_metrics
+)
+SELECT 
+    lc.case_outcome,
+    tm.citation_density,
+    tm.sentence_complexity
+FROM legal_cases lc
+JOIN text_metrics tm ON lc.case_id = tm.case_id
+CROSS JOIN stats
+WHERE tm.citation_density > mean_density + 2 * std_density
+ORDER BY tm.citation_density DESC
+LIMIT 10;
+
+2024-11-30 19:24:39,068 - scripts.utils.db_utils - INFO - Database connection established successfully
+2024-11-30 19:24:39,462 - scripts.utils.db_utils - INFO - Query executed successfully, returned 30 results
+2024-11-30 19:24:39,858 - scripts.utils.db_utils - INFO - Database connection established successfully
+2024-11-30 19:24:39,858 - scripts.utils.db_utils - ERROR - Query execution failed: misuse of aggregate function avg()
+Query: 
+    WITH stats AS (
+        SELECT 
+            AVG(citation_density) as mean_density,
+            sqrt(avg((citation_density - avg(citation_density)) * (citation_density - avg(citation_density)))) as std_density
+        FROM text_metrics
+    )
+    SELECT 
+        lc.case_outcome,
+        tm.citation_density,
+        tm.sentence_complexity
+    FROM legal_cases lc
+    JOIN text_metrics tm ON lc.case_id = tm.case_id
+    CROSS JOIN stats
+    WHERE tm.citation_density > mean_density + 2 * std_density
+    ORDER BY tm.citation_density DESC
+    LIMIT 10;
+    
+2024-11-30 19:27:23,071 - scripts.utils.db_utils - INFO - Database connection established successfully
+2024-11-30 19:27:23,451 - scripts.utils.db_utils - INFO - Query executed successfully, returned 30 results
+2024-11-30 19:27:23,772 - scripts.utils.db_utils - INFO - Database connection established successfully
+2024-11-30 19:27:23,786 - scripts.utils.db_utils - INFO - Query executed successfully, returned 10 results
+2024-11-30 19:29:35,161 - scripts.utils.db_utils - INFO - Database connection established successfully
+2024-11-30 19:29:35,535 - scripts.utils.db_utils - INFO - Query executed successfully, returned 30 results
+2024-11-30 19:29:35,851 - scripts.utils.db_utils - INFO - Database connection established successfully
+2024-11-30 19:29:35,865 - scripts.utils.db_utils - INFO - Query executed successfully, returned 10 results
+2024-11-30 19:34:06,564 - scripts.utils.db_utils - INFO - Database connection established successfully
+2024-11-30 19:37:10,649 - scripts.utils.db_utils - INFO - Database connection established successfully
+2024-11-30 19:37:30,499 - scripts.utils.db_utils - INFO - Database connection established successfully
+2024-11-30 19:39:21,640 - scripts.utils.db_utils - INFO - Database connection established successfully
+2024-11-30 19:39:49,782 - scripts.utils.db_utils - INFO - Database connection established successfully

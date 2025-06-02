@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
+  <!-- Background -->
+  <rect width="1000" height="600" fill="#f8f9fa"/>
+  
+  <!-- Obsidian Section -->
+  <g transform="translate(50,50)">
+    <rect width="300" height="500" fill="#e7f5ff" stroke="#228be6"/>
+    <text x="20" y="30" fill="#228be6" font-family="Arial" font-size="20">Obsidian Vault</text>
+    
+    <!-- Vault Structure -->
+    <g transform="translate(20,60)">
+      <text x="0" y="0" fill="#495057" font-family="Arial" font-size="14">Course Hubs</text>
+      <text x="20" y="25" fill="#495057" font-family="Arial" font-size="12">- Research Notes</text>
+      <text x="20" y="45" fill="#495057" font-family="Arial" font-size="12">- Weekly Logs</text>
+      <text x="20" y="65" fill="#495057" font-family="Arial" font-size="12">- Assessment Tracking</text>
+    </g>
+  </g>
+  
+  <!-- Git Section -->
+  <g transform="translate(400,50)">
+    <rect width="250" height="500" fill="#fff4e6" stroke="#fd7e14"/>
+    <text x="20" y="30" fill="#fd7e14" font-family="Arial" font-size="20">Git Repository</text>
+    
+    <!-- Repository Structure -->
+    <g transform="translate(20,60)">
+      <text x="0" y="0" fill="#495057" font-family="Arial" font-size="14">Version Control</text>
+      <text x="20" y="25" fill="#495057" font-family="Arial" font-size="12">- Code</text>
+      <text x="20" y="45" fill="#495057" font-family="Arial" font-size="12">- Documentation</text>
+      <text x="20" y="65" fill="#495057" font-family="Arial" font-size="12">- Research Data</text>
+    </g>
+  </g>
+  
+  <!-- Project Management Section -->
+  <g transform="translate(700,50)">
+    <rect width="250" height="500" fill="#f1f3f5" stroke="#495057"/>
+    <text x="20" y="30" fill="#495057" font-family="Arial" font-size="20">Project Management</text>
+    
+    <!-- Project Structure -->
+    <g transform="translate(20,60)">
+      <text x="0" y="0" fill="#495057" font-family="Arial" font-size="14">Tracking</text>
+      <text x="20" y="25" fill="#495057" font-family="Arial" font-size="12">- Milestones</text>
+      <text x="20" y="45" fill="#495057" font-family="Arial" font-size="12">- Grade Criteria</text>
+      <text x="20" y="65" fill="#495057" font-family="Arial" font-size="12">- Time Management</text>
+    </g>
+  </g>
+  
+  <!-- Integration Lines -->
+  <g stroke="#adb5bd" stroke-width="2" stroke-dasharray="5,5">
+    <path d="M350,300 L400,300"/>
+    <path d="M650,300 L700,300"/>
+  </g>
+  
+  <!-- Integration Points -->
+  <g transform="translate(375,270)">
+    <circle cx="0" cy="30" r="5" fill="#228be6"/>
+    <circle cx="300" cy="30" r="5" fill="#fd7e14"/>
+  </g>
+</svg>

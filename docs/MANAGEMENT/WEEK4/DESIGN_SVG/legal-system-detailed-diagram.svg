@@ -1,0 +1,120 @@
+<svg viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg">
+    <!-- Input Layer -->
+    <g transform="translate(50,50)">
+        <rect x="0" y="0" width="250" height="280" fill="#e6f3ff" stroke="#333" stroke-width="3" opacity="0.9"/>
+        <text x="125" y="30" text-anchor="middle" font-weight="bold" font-size="16">Input Layer</text>
+        
+        <!-- Document Intake -->
+        <rect x="20" y="50" width="210" height="100" fill="#fff" stroke="#4a90e2" stroke-width="2"/>
+        <text x="125" y="70" text-anchor="middle" font-weight="bold" fill="#4a90e2">Document Intake</text>
+        <text x="125" y="90" text-anchor="middle" font-size="12">- PDF Parser (PyPDF2)</text>
+        <text x="125" y="110" text-anchor="middle" font-size="12">- OCR Engine (Tesseract)</text>
+        <text x="125" y="130" text-anchor="middle" font-size="12">- Text Encoding (UTF-8)</text>
+
+        <!-- Initial Processing -->
+        <rect x="20" y="160" width="210" height="100" fill="#fff" stroke="#4a90e2" stroke-width="2"/>
+        <text x="125" y="180" text-anchor="middle" font-weight="bold" fill="#4a90e2">Initial Processing</text>
+        <text x="125" y="200" text-anchor="middle" font-size="12">- Language Detection (langdetect)</text>
+        <text x="125" y="220" text-anchor="middle" font-size="12">- Encoding Validation</text>
+        <text x="125" y="240" text-anchor="middle" font-size="12">- Document Validation</text>
+    </g>
+
+    <!-- Processing Layer -->
+    <g transform="translate(350,50)">
+        <rect x="0" y="0" width="500" height="700" fill="#fff3e6" stroke="#333" stroke-width="3" opacity="0.9"/>
+        <text x="250" y="30" text-anchor="middle" font-weight="bold" font-size="16">Processing Layer</text>
+
+        <!-- Text Preprocessing -->
+        <g transform="translate(20,50)">
+            <rect x="0" y="0" width="460" height="150" fill="#fff" stroke="#ff9966" stroke-width="2"/>
+            <text x="230" y="25" text-anchor="middle" font-weight="bold" fill="#ff9966">Text Preprocessing</text>
+            <text x="230" y="50" text-anchor="middle" font-size="12">- NLTK: Tokenization, Stopword Removal</text>
+            <text x="230" y="70" text-anchor="middle" font-size="12">- SpaCy: NER, Dependency Parsing</text>
+            <text x="230" y="90" text-anchor="middle" font-size="12">- Regex: Pattern Matching</text>
+            <text x="230" y="110" text-anchor="middle" font-size="12">- Custom Legal Text Cleaner</text>
+            <text x="230" y="130" text-anchor="middle" font-size="12">Memory: 4GB | Speed: 100ms/doc</text>
+        </g>
+
+        <!-- Feature Engineering -->
+        <g transform="translate(20,220)">
+            <rect x="0" y="0" width="460" height="200" fill="#fff" stroke="#ff9966" stroke-width="2"/>
+            <text x="230" y="25" text-anchor="middle" font-weight="bold" fill="#ff9966">Feature Engineering</text>
+            <text x="230" y="50" text-anchor="middle" font-size="12">- LegalBERT Embeddings</text>
+            <text x="230" y="70" text-anchor="middle" font-size="12">- TF-IDF Vectorization</text>
+            <text x="230" y="90" text-anchor="middle" font-size="12">- Citation Network Features (NetworkX)</text>
+            <text x="230" y="110" text-anchor="middle" font-size="12">- Legal Entity Features</text>
+            <text x="230" y="130" text-anchor="middle" font-size="12">- Rhetorical Role Features</text>
+            <text x="230" y="150" text-anchor="middle" font-size="12">GPU: 8GB VRAM | Batch: 32</text>
+            <text x="230" y="170" text-anchor="middle" font-size="12">Processing: 500ms/batch</text>
+        </g>
+
+        <!-- Model Layer -->
+        <g transform="translate(20,440)">
+            <rect x="0" y="0" width="460" height="240" fill="#fff" stroke="#ff9966" stroke-width="2"/>
+            <text x="230" y="25" text-anchor="middle" font-weight="bold" fill="#ff9966">Classification Models</text>
+            
+            <!-- BERT Model -->
+            <rect x="20" y="40" width="200" height="90" fill="#fff" stroke="#ff9966" stroke-width="1"/>
+            <text x="120" y="60" text-anchor="middle" font-size="12" font-weight="bold">BERT Classifier</text>
+            <text x="120" y="80" text-anchor="middle" font-size="11">- LegalBERT Base</text>
+            <text x="120" y="100" text-anchor="middle" font-size="11">- Accuracy: >85%</text>
+            <text x="120" y="120" text-anchor="middle" font-size="11">- GPU Required</text>
+
+            <!-- Rule-Based Model -->
+            <rect x="240" y="40" width="200" height="90" fill="#fff" stroke="#ff9966" stroke-width="1"/>
+            <text x="340" y="60" text-anchor="middle" font-size="12" font-weight="bold">Rule-Based System</text>
+            <text x="340" y="80" text-anchor="middle" font-size="11">- Legal Pattern Matching</text>
+            <text x="340" y="100" text-anchor="middle" font-size="11">- Precision: >90%</text>
+            <text x="340" y="120" text-anchor="middle" font-size="11">- CPU Only</text>
+
+            <!-- Ensemble -->
+            <rect x="20" y="140" width="420" height="80" fill="#fff" stroke="#ff9966" stroke-width="1"/>
+            <text x="230" y="160" text-anchor="middle" font-size="12" font-weight="bold">Ensemble Layer</text>
+            <text x="230" y="180" text-anchor="middle" font-size="11">- Weighted Voting</text>
+            <text x="230" y="200" text-anchor="middle" font-size="11">- Confidence Scoring</text>
+        </g>
+    </g>
+
+    <!-- Output Layer -->
+    <g transform="translate(900,50)">
+        <rect x="0" y="0" width="250" height="400" fill="#e6ffe6" stroke="#333" stroke-width="3" opacity="0.9"/>
+        <text x="125" y="30" text-anchor="middle" font-weight="bold" font-size="16">Output Layer</text>
+
+        <!-- Classification Results -->
+        <rect x="20" y="50" width="210" height="120" fill="#fff" stroke="#2ecc71" stroke-width="2"/>
+        <text x="125" y="70" text-anchor="middle" font-weight="bold" fill="#2ecc71">Classification Results</text>
+        <text x="125" y="90" text-anchor="middle" font-size="12">- Case Type (JSON)</text>
+        <text x="125" y="110" text-anchor="middle" font-size="12">- Legal Area (JSON)</text>
+        <text x="125" y="130" text-anchor="middle" font-size="12">- Confidence Scores</text>
+        <text x="125" y="150" text-anchor="middle" font-size="12">Latency: <100ms</text>
+
+        <!-- Analysis Reports -->
+        <rect x="20" y="190" width="210" height="120" fill="#fff" stroke="#2ecc71" stroke-width="2"/>
+        <text x="125" y="210" text-anchor="middle" font-weight="bold" fill="#2ecc71">Analysis Reports</text>
+        <text x="125" y="230" text-anchor="middle" font-size="12">- Feature Importance</text>
+        <text x="125" y="250" text-anchor="middle" font-size="12">- Citation Network</text>
+        <text x="125" y="270" text-anchor="middle" font-size="12">- Error Analysis</text>
+        <text x="125" y="290" text-anchor="middle" font-size="12">Format: PDF/HTML</text>
+    </g>
+
+    <!-- Data Flow Arrows -->
+    <g stroke="#333" stroke-width="2" fill="none">
+        <!-- Input to Processing -->
+        <path d="M300,150 L350,150" marker-end="url(#arrowhead)"/>
+        
+        <!-- Processing Internal Flow -->
+        <path d="M600,200 L600,220" marker-end="url(#arrowhead)"/>
+        <path d="M600,420 L600,440" marker-end="url(#arrowhead)"/>
+        
+        <!-- Processing to Output -->
+        <path d="M850,150 L900,150" marker-end="url(#arrowhead)"/>
+    </g>
+
+    <!-- Arrow Marker -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+                refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+        </marker>
+    </defs>
+</svg>

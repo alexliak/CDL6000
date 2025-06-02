@@ -1,0 +1,93 @@
+<svg viewBox="0 0 1440 900" xmlns="http://www.w3.org/2000/svg">
+    <!-- System Layout Grid -->
+    <defs>
+        <style>
+            .title-text { font-family: 'Inter', sans-serif; font-size: 24px; font-weight: 600; }
+            .subtitle-text { font-family: 'Inter', sans-serif; font-size: 16px; font-weight: 500; }
+            .body-text { font-family: 'Inter', sans-serif; font-size: 14px; font-weight: 400; }
+            .metric-text { font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 500; }
+        </style>
+    </defs>
+
+    <!-- Background Grid -->
+    <rect width="1440" height="900" fill="#F8F9FA"/>
+    
+    <!-- Navigation Sidebar -->
+    <g transform="translate(0,0)">
+        <rect width="240" height="900" fill="#FFFFFF" stroke="#E9ECEF" stroke-width="1"/>
+        <text x="24" y="40" class="title-text" fill="#212529">Components</text>
+        
+        <!-- Navigation Items -->
+        <g transform="translate(0,80)">
+            <rect x="24" y="0" width="192" height="40" rx="8" fill="#F1F3F5"/>
+            <text x="48" y="25" class="subtitle-text" fill="#495057">Document Intake</text>
+        </g>
+        <g transform="translate(0,130)">
+            <rect x="24" y="0" width="192" height="40" rx="8" fill="#FFFFFF"/>
+            <text x="48" y="25" class="subtitle-text" fill="#495057">Processing</text>
+        </g>
+        <g transform="translate(0,180)">
+            <rect x="24" y="0" width="192" height="40" rx="8" fill="#FFFFFF"/>
+            <text x="48" y="25" class="subtitle-text" fill="#495057">Classification</text>
+        </g>
+    </g>
+
+    <!-- Main Content Area -->
+    <g transform="translate(264,24)">
+        <!-- Component Header -->
+        <text x="0" y="24" class="title-text" fill="#212529">Document Intake Component</text>
+        
+        <!-- Component Metrics -->
+        <g transform="translate(0,60)">
+            <rect width="240" height="100" rx="8" fill="#FFFFFF" stroke="#E9ECEF"/>
+            <text x="24" y="32" class="subtitle-text" fill="#495057">Processing Speed</text>
+            <text x="24" y="64" class="title-text" fill="#228BE6">127ms</text>
+            <text x="24" y="84" class="metric-text" fill="#868E96">Average response time</text>
+        </g>
+        
+        <!-- Component Flow -->
+        <g transform="translate(0,184)">
+            <rect width="1152" height="320" rx="8" fill="#FFFFFF" stroke="#E9ECEF"/>
+            
+            <!-- Flow Steps -->
+            <g transform="translate(24,24)">
+                <!-- Input -->
+                <rect width="200" height="120" rx="8" fill="#E7F5FF" stroke="#228BE6"/>
+                <text x="24" y="32" class="subtitle-text" fill="#228BE6">Input</text>
+                <text x="24" y="60" class="body-text" fill="#495057">- PDF Files</text>
+                <text x="24" y="84" class="body-text" fill="#495057">- DOCX Files</text>
+                <text x="24" y="108" class="body-text" fill="#495057">- Text Files</text>
+                
+                <!-- Processing -->
+                <g transform="translate(248,0)">
+                    <rect width="200" height="120" rx="8" fill="#E7F5FF" stroke="#228BE6"/>
+                    <text x="24" y="32" class="subtitle-text" fill="#228BE6">Processing</text>
+                    <text x="24" y="60" class="body-text" fill="#495057">- Text Extraction</text>
+                    <text x="24" y="84" class="body-text" fill="#495057">- Validation</text>
+                    <text x="24" y="108" class="body-text" fill="#495057">- Normalization</text>
+                </g>
+                
+                <!-- Output -->
+                <g transform="translate(496,0)">
+                    <rect width="200" height="120" rx="8" fill="#E7F5FF" stroke="#228BE6"/>
+                    <text x="24" y="32" class="subtitle-text" fill="#228BE6">Output</text>
+                    <text x="24" y="60" class="body-text" fill="#495057">- Clean Text</text>
+                    <text x="24" y="84" class="body-text" fill="#495057">- Metadata</text>
+                    <text x="24" y="108" class="body-text" fill="#495057">- Status</text>
+                </g>
+                
+                <!-- Flow Arrows -->
+                <path d="M 200 60 H 248" stroke="#228BE6" stroke-width="2" marker-end="url(#arrowhead)"/>
+                <path d="M 448 60 H 496" stroke="#228BE6" stroke-width="2" marker-end="url(#arrowhead)"/>
+            </g>
+        </g>
+    </g>
+
+    <!-- Arrowhead Marker -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+                refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#228BE6"/>
+        </marker>
+    </defs>
+</svg>

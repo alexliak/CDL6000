@@ -1,0 +1,25 @@
+classification system:
+
+Input Layer (Blue)
+
+Document ingestion
+Text extraction
+Initial parsing
+
+
+Processing Layer (Orange)
+
+Preprocessing (cleaning, segmentation)
+Feature Engineering (vectorization, legal features)
+Classification Models (BERT + Rule-based)
+
+
+Output Layer (Green)
+
+Classification Results
+Confidence Scores
+Analysis Reports
+
+
+
+The arrows show data flow between components. Each box represents a modular component that can be developed and tested independently.

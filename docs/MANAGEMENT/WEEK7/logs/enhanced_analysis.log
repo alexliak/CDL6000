@@ -1,0 +1,4 @@
+2024-11-30 19:44:25,681 - enhanced_analysis - INFO - Starting enhanced analysis
+2024-11-30 19:44:25,682 - enhanced_analysis - INFO - Basic statistics calculated successfully
+2024-11-30 19:44:25,684 - enhanced_analysis - INFO - Advanced statistics calculated successfully
+2024-11-30 19:44:25,684 - enhanced_analysis - ERROR - Analysis failed: 'EnhancedAnalysis' object has no attribute '_save_statistics'

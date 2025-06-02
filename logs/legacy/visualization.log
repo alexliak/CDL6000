@@ -1,0 +1,88 @@
+2024-11-30 19:24:39,068 - visualization - INFO - Starting data visualization process
+2024-11-30 19:24:39,068 - visualization - INFO - Executing main analysis query
+2024-11-30 19:24:39,463 - visualization - INFO - Retrieved 30 rows of analysis data
+2024-11-30 19:24:39,463 - visualization - INFO - Creating case distribution plot
+2024-11-30 19:24:39,703 - visualization - INFO - Saved case distribution plot
+2024-11-30 19:24:39,703 - visualization - INFO - Creating citation density analysis plot
+2024-11-30 19:24:39,858 - visualization - INFO - Saved citation analysis plot
+2024-11-30 19:24:39,858 - visualization - INFO - Executing outlier analysis query
+2024-11-30 19:24:39,858 - visualization - ERROR - Error in visualization process: misuse of aggregate function avg()
+2024-11-30 19:27:23,071 - visualization - INFO - Starting data visualization process
+2024-11-30 19:27:23,071 - visualization - INFO - Starting data visualization process
+2024-11-30 19:27:23,071 - visualization - INFO - Executing main analysis query
+2024-11-30 19:27:23,071 - visualization - INFO - Executing main analysis query
+2024-11-30 19:27:23,451 - visualization - INFO - Retrieved 30 rows of analysis data
+2024-11-30 19:27:23,451 - visualization - INFO - Retrieved 30 rows of analysis data
+2024-11-30 19:27:23,452 - visualization - INFO - Creating case distribution plot
+2024-11-30 19:27:23,452 - visualization - INFO - Creating case distribution plot
+2024-11-30 19:27:23,624 - visualization - INFO - Saved case distribution plot
+2024-11-30 19:27:23,624 - visualization - INFO - Saved case distribution plot
+2024-11-30 19:27:23,625 - visualization - INFO - Creating citation density analysis plot
+2024-11-30 19:27:23,625 - visualization - INFO - Creating citation density analysis plot
+2024-11-30 19:27:23,772 - visualization - INFO - Saved citation analysis plot
+2024-11-30 19:27:23,772 - visualization - INFO - Saved citation analysis plot
+2024-11-30 19:27:23,772 - visualization - INFO - Executing outlier analysis query
+2024-11-30 19:27:23,772 - visualization - INFO - Executing outlier analysis query
+2024-11-30 19:27:23,787 - visualization - INFO - Found 10 outliers
+2024-11-30 19:27:23,787 - visualization - INFO - Found 10 outliers
+2024-11-30 19:27:23,787 - visualization - INFO - Creating outlier visualization
+2024-11-30 19:27:23,787 - visualization - INFO - Creating outlier visualization
+2024-11-30 19:27:24,088 - visualization - INFO - Saved outlier visualization
+2024-11-30 19:27:24,088 - visualization - INFO - Saved outlier visualization
+2024-11-30 19:27:24,089 - visualization - INFO - Creating outlier visualization
+2024-11-30 19:27:24,089 - visualization - INFO - Creating outlier visualization
+2024-11-30 19:27:24,212 - visualization - INFO - Saved outlier visualization
+2024-11-30 19:27:24,212 - visualization - INFO - Saved outlier visualization
+2024-11-30 19:27:24,213 - visualization - INFO - Visualization process completed successfully
+2024-11-30 19:27:24,213 - visualization - INFO - Visualization process completed successfully
+2024-11-30 19:29:35,161 - visualization - INFO - Starting data visualization process
+2024-11-30 19:29:35,161 - visualization - INFO - Starting data visualization process
+2024-11-30 19:29:35,161 - visualization - INFO - Starting data visualization process
+2024-11-30 19:29:35,161 - visualization - INFO - Executing main analysis query
+2024-11-30 19:29:35,161 - visualization - INFO - Executing main analysis query
+2024-11-30 19:29:35,161 - visualization - INFO - Executing main analysis query
+2024-11-30 19:29:35,536 - visualization - INFO - Retrieved 30 rows of analysis data
+2024-11-30 19:29:35,536 - visualization - INFO - Retrieved 30 rows of analysis data
+2024-11-30 19:29:35,536 - visualization - INFO - Retrieved 30 rows of analysis data
+2024-11-30 19:29:35,536 - visualization - INFO - Creating case distribution plot
+2024-11-30 19:29:35,536 - visualization - INFO - Creating case distribution plot
+2024-11-30 19:29:35,536 - visualization - INFO - Creating case distribution plot
+2024-11-30 19:29:35,692 - visualization - INFO - Saved case distribution plot
+2024-11-30 19:29:35,692 - visualization - INFO - Saved case distribution plot
+2024-11-30 19:29:35,692 - visualization - INFO - Saved case distribution plot
+2024-11-30 19:29:35,692 - visualization - INFO - Creating citation density analysis plot
+2024-11-30 19:29:35,692 - visualization - INFO - Creating citation density analysis plot
+2024-11-30 19:29:35,692 - visualization - INFO - Creating citation density analysis plot
+2024-11-30 19:29:35,851 - visualization - INFO - Saved citation analysis plot
+2024-11-30 19:29:35,851 - visualization - INFO - Saved citation analysis plot
+2024-11-30 19:29:35,851 - visualization - INFO - Saved citation analysis plot
+2024-11-30 19:29:35,851 - visualization - INFO - Executing outlier analysis query
+2024-11-30 19:29:35,851 - visualization - INFO - Executing outlier analysis query
+2024-11-30 19:29:35,851 - visualization - INFO - Executing outlier analysis query
+2024-11-30 19:29:35,865 - visualization - INFO - Found 10 outliers
+2024-11-30 19:29:35,865 - visualization - INFO - Found 10 outliers
+2024-11-30 19:29:35,865 - visualization - INFO - Found 10 outliers
+2024-11-30 19:29:35,865 - visualization - INFO - Creating outlier visualization
+2024-11-30 19:29:35,865 - visualization - INFO - Creating outlier visualization
+2024-11-30 19:29:35,865 - visualization - INFO - Creating outlier visualization
+2024-11-30 19:29:36,175 - visualization - INFO - Saved outlier visualization
+2024-11-30 19:29:36,175 - visualization - INFO - Saved outlier visualization
+2024-11-30 19:29:36,175 - visualization - INFO - Saved outlier visualization
+2024-11-30 19:29:36,177 - visualization - INFO - Creating outlier visualization
+2024-11-30 19:29:36,177 - visualization - INFO - Creating outlier visualization
+2024-11-30 19:29:36,177 - visualization - INFO - Creating outlier visualization
+2024-11-30 19:29:36,291 - visualization - INFO - Saved outlier visualization
+2024-11-30 19:29:36,291 - visualization - INFO - Saved outlier visualization
+2024-11-30 19:29:36,291 - visualization - INFO - Saved outlier visualization
+2024-11-30 19:29:36,292 - visualization - INFO - Visualization process completed successfully
+2024-11-30 19:29:36,292 - visualization - INFO - Visualization process completed successfully
+2024-11-30 19:29:36,292 - visualization - INFO - Visualization process completed successfully
+2024-11-30 19:32:15,935 - visualization - INFO - total_cases: 24985.00
+2024-11-30 19:32:15,935 - visualization - INFO - avg_citation_density: 0.01
+2024-11-30 19:32:15,935 - visualization - INFO - max_complexity: 44.68
+2024-11-30 19:32:15,935 - visualization - INFO - categories_count: 3.00
+2024-11-30 19:34:06,580 - visualization - INFO - Analysis statistics saved to database
+2024-11-30 19:37:10,686 - visualization - INFO - Analysis statistics saved to database
+2024-11-30 19:37:30,511 - visualization - INFO - Analysis statistics saved to database
+2024-11-30 19:39:21,677 - visualization - INFO - Analysis statistics saved to database
+2024-11-30 19:39:49,794 - visualization - INFO - Analysis statistics saved to database

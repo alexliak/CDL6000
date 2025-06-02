@@ -1,0 +1,53 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Input Section -->
+    <g transform="translate(50,50)">
+        <rect x="0" y="0" width="200" height="150" fill="#e6f3ff" stroke="#333" stroke-width="2"/>
+        <text x="100" y="30" text-anchor="middle" font-weight="bold">Input Layer</text>
+        <rect x="20" y="50" width="160" height="30" fill="#fff" stroke="#333"/>
+        <text x="100" y="70" text-anchor="middle">Legal Documents</text>
+        <rect x="20" y="90" width="160" height="30" fill="#fff" stroke="#333"/>
+        <text x="100" y="110" text-anchor="middle">Text Extraction</text>
+    </g>
+
+    <!-- Processing Section -->
+    <g transform="translate(300,20)">
+        <rect x="0" y="0" width="200" height="400" fill="#fff3e6" stroke="#333" stroke-width="2"/>
+        <text x="100" y="30" text-anchor="middle" font-weight="bold">Processing Layer</text>
+        
+        <!-- Preprocessing -->
+        <rect x="20" y="50" width="160" height="100" fill="#fff" stroke="#333"/>
+        <text x="100" y="70" text-anchor="middle" font-style="italic">Preprocessing</text>
+        <text x="100" y="90" text-anchor="middle" font-size="12">- Text Cleaning</text>
+        <text x="100" y="110" text-anchor="middle" font-size="12">- Segmentation</text>
+        <text x="100" y="130" text-anchor="middle" font-size="12">- Entity Recognition</text>
+
+        <!-- Feature Engineering -->
+        <rect x="20" y="170" width="160" height="100" fill="#fff" stroke="#333"/>
+        <text x="100" y="190" text-anchor="middle" font-style="italic">Feature Engineering</text>
+        <text x="100" y="210" text-anchor="middle" font-size="12">- Vectorization</text>
+        <text x="100" y="230" text-anchor="middle" font-size="12">- Legal Features</text>
+        <text x="100" y="250" text-anchor="middle" font-size="12">- Citation Network</text>
+
+        <!-- Classification -->
+        <rect x="20" y="290" width="160" height="90" fill="#fff" stroke="#333"/>
+        <text x="100" y="310" text-anchor="middle" font-style="italic">Classification</text>
+        <text x="100" y="330" text-anchor="middle" font-size="12">- BERT Model</text>
+        <text x="100" y="350" text-anchor="middle" font-size="12">- Rule-Based Model</text>
+    </g>
+
+    <!-- Output Section -->
+    <g transform="translate(550,50)">
+        <rect x="0" y="0" width="200" height="150" fill="#e6ffe6" stroke="#333" stroke-width="2"/>
+        <text x="100" y="30" text-anchor="middle" font-weight="bold">Output Layer</text>
+        <rect x="20" y="50" width="160" height="80" fill="#fff" stroke="#333"/>
+        <text x="100" y="70" text-anchor="middle" font-size="12">- Case Type</text>
+        <text x="100" y="90" text-anchor="middle" font-size="12">- Legal Area</text>
+        <text x="100" y="110" text-anchor="middle" font-size="12">- Confidence Score</text>
+    </g>
+
+    <!-- Connecting Arrows -->
+    <g stroke="#333" stroke-width="2" fill="none">
+        <path d="M250,125 L300,125"/>
+        <path d="M500,125 L550,125"/>
+    </g>
+</svg>

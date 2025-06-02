@@ -1,4 +1,9 @@
+# CDL6000 Legal Document Classification
+# Git Ignore File
+
+#######################
 # Python
+#######################
 __pycache__/
 *.py[cod]
 *$py.class
@@ -16,30 +21,68 @@ parts/
 sdist/
 var/
 wheels/
+share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
 
-# Virtual Environment
+#######################
+# Virtual Environments
+#######################
 venv/
 ENV/
 env/
+.venv/
+.ENV/
 
-# IDE
+#######################
+# IDE and Editors
+#######################
 .idea/
 .vscode/
 *.swp
 *.swo
+*~
+.project
+.pydevproject
 
-# Project specific
-data/raw/*
-data/processed/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
+#######################
+# Project Data
+#######################
+
+
+
+#######################
+# Environment Variables
+#######################
 .env
-logs/
-*.log
+.env.local
+.env.*.local
 
-# OS specific
-.DS_Store
+# Windows
 Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+
+#######################
+# Temporary Files
+#######################
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+.cache/
+
+#######################
+# Keep these files
+#######################
+!.gitkeep
+!requirements.txt
+!setup.py
+!README.md
+.gitignore

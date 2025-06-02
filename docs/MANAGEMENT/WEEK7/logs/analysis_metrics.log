@@ -1,0 +1,96 @@
+2024-11-30 20:16:18,623 - INFO - Δημιουργήθηκε γράφημα γλωσσικών μοτίβων
+2024-11-30 20:16:18,701 - INFO - Δημιουργήθηκε γράφημα δικτύου παραπομπών
+2024-11-30 20:18:38,446 - INFO - Logging system initialized
+2024-11-30 20:18:38,447 - INFO - AnalysisVisualizer initialization completed
+2024-11-30 20:18:38,448 - INFO - Counted 0 patterns
+2024-11-30 20:18:38,448 - INFO - Counted 0 citations
+2024-11-30 20:18:38,449 - INFO - Counted 0 patterns
+2024-11-30 20:18:38,449 - INFO - Counted 0 citations
+2024-11-30 20:18:38,462 - INFO - Καταγράφηκαν μετρικές: {'execution_time': 0.003000974655151367, 'patterns_analyzed': 0, 'citations_analyzed': 0}
+2024-11-30 20:21:41,212 - INFO - Logging system initialized
+2024-11-30 20:21:43,915 - INFO - Logging system initialized
+2024-11-30 20:27:14,052 - INFO - Logging system initialized
+2024-11-30 20:27:14,053 - INFO - Counted 0 patterns
+2024-11-30 20:27:14,053 - INFO - Counted 0 citations
+2024-11-30 20:27:16,929 - INFO - Logging system initialized
+2024-11-30 20:27:16,930 - INFO - Counted 0 patterns
+2024-11-30 20:27:16,930 - INFO - Counted 0 citations
+2024-11-30 20:33:03,947 - INFO - Logging system initialized
+2024-11-30 20:33:03,948 - INFO - Database tables created successfully
+2024-11-30 20:33:03,948 - INFO - Counted 0 patterns
+2024-11-30 20:33:03,981 - INFO - Sample language patterns inserted
+2024-11-30 20:33:03,984 - INFO - Counted 0 citations
+2024-11-30 20:33:03,985 - INFO - Sample citations inserted
+2024-11-30 20:33:03,987 - INFO - Counted 5 patterns
+2024-11-30 20:33:03,987 - INFO - Counted 4 citations
+2024-11-30 20:33:04,103 - INFO - Δημιουργήθηκε γράφημα γλωσσικών μοτίβων
+2024-11-30 20:33:04,177 - INFO - Δημιουργήθηκε γράφημα δικτύου παραπομπών
+2024-11-30 20:33:04,178 - INFO - Counted 5 patterns
+2024-11-30 20:33:04,178 - INFO - Counted 4 citations
+2024-11-30 20:33:04,191 - INFO - Καταγράφηκαν μετρικές: {'execution_time': 0.23096275329589844, 'patterns_analyzed': 5, 'citations_analyzed': 4}
+2024-11-30 20:33:13,682 - INFO - Logging system initialized
+2024-11-30 20:33:13,683 - INFO - Database tables created successfully
+2024-11-30 20:33:13,683 - INFO - Counted 5 patterns
+2024-11-30 20:33:13,684 - INFO - Counted 4 citations
+2024-11-30 20:33:13,684 - INFO - Counted 5 patterns
+2024-11-30 20:33:13,684 - INFO - Counted 4 citations
+2024-11-30 20:33:13,818 - INFO - Δημιουργήθηκε γράφημα γλωσσικών μοτίβων
+2024-11-30 20:33:13,955 - INFO - Δημιουργήθηκε γράφημα δικτύου παραπομπών
+2024-11-30 20:33:13,956 - INFO - Counted 5 patterns
+2024-11-30 20:33:13,956 - INFO - Counted 4 citations
+2024-11-30 20:33:13,967 - INFO - Καταγράφηκαν μετρικές: {'execution_time': 0.27398109436035156, 'patterns_analyzed': 5, 'citations_analyzed': 4}
+2024-11-30 20:36:22,472 - INFO - Logging system initialized
+2024-11-30 20:36:22,472 - INFO - Database tables created successfully
+2024-11-30 20:36:22,473 - INFO - Counted 5 patterns
+2024-11-30 20:36:22,473 - INFO - Counted 4 citations
+2024-11-30 20:36:22,474 - INFO - Counted 5 patterns
+2024-11-30 20:36:22,474 - INFO - Counted 4 citations
+2024-11-30 20:36:22,615 - INFO - Δημιουργήθηκε γράφημα γλωσσικών μοτίβων
+2024-11-30 20:36:22,691 - INFO - Δημιουργήθηκε γράφημα δικτύου παραπομπών
+2024-11-30 20:36:22,691 - INFO - Counted 5 patterns
+2024-11-30 20:36:22,692 - INFO - Counted 4 citations
+2024-11-30 20:36:22,734 - INFO - Καταγράφηκαν μετρικές: {'execution_time': 0.22022438049316406, 'patterns_analyzed': 5, 'citations_analyzed': 4}
+2024-11-30 20:37:33,049 - INFO - Logging system initialized
+2024-11-30 20:37:33,049 - INFO - Database tables created successfully
+2024-11-30 20:37:33,050 - INFO - Counted 5 patterns
+2024-11-30 20:37:33,050 - INFO - Counted 4 citations
+2024-11-30 20:37:33,050 - INFO - Counted 5 patterns
+2024-11-30 20:37:33,051 - INFO - Counted 4 citations
+2024-11-30 20:37:33,183 - INFO - Δημιουργήθηκε γράφημα γλωσσικών μοτίβων
+2024-11-30 20:37:33,253 - INFO - Δημιουργήθηκε γράφημα δικτύου παραπομπών
+2024-11-30 20:37:33,253 - INFO - Counted 5 patterns
+2024-11-30 20:37:33,254 - INFO - Counted 4 citations
+2024-11-30 20:37:33,290 - INFO - Καταγράφηκαν μετρικές: {'execution_time': 0.20586395263671875, 'patterns_analyzed': 5, 'citations_analyzed': 4}
+2024-11-30 20:41:26,830 - INFO - Logging system initialized
+2024-11-30 20:41:26,830 - INFO - Database tables created successfully
+2024-11-30 20:41:26,831 - INFO - Counted 5 patterns
+2024-11-30 20:41:26,831 - INFO - Counted 4 citations
+2024-11-30 20:41:26,831 - INFO - Counted 5 patterns
+2024-11-30 20:41:26,832 - INFO - Counted 4 citations
+2024-11-30 20:41:26,962 - INFO - Δημιουργήθηκε γράφημα γλωσσικών μοτίβων
+2024-11-30 20:41:27,032 - INFO - Δημιουργήθηκε γράφημα δικτύου παραπομπών
+2024-11-30 20:41:27,034 - INFO - Counted 5 patterns
+2024-11-30 20:41:27,034 - INFO - Counted 4 citations
+2024-11-30 20:41:27,046 - INFO - Καταγράφηκαν μετρικές: {'execution_time': 0.203477144241333, 'patterns_analyzed': 5, 'citations_analyzed': 4}
+2024-11-30 20:41:27,945 - INFO - Logging system initialized
+2024-11-30 20:41:27,945 - INFO - Database tables created successfully
+2024-11-30 20:41:27,946 - INFO - Counted 5 patterns
+2024-11-30 20:41:27,946 - INFO - Counted 4 citations
+2024-11-30 20:41:27,946 - INFO - Counted 5 patterns
+2024-11-30 20:41:27,947 - INFO - Counted 4 citations
+2024-11-30 20:41:28,079 - INFO - Δημιουργήθηκε γράφημα γλωσσικών μοτίβων
+2024-11-30 20:41:28,151 - INFO - Δημιουργήθηκε γράφημα δικτύου παραπομπών
+2024-11-30 20:41:28,152 - INFO - Counted 5 patterns
+2024-11-30 20:41:28,152 - INFO - Counted 4 citations
+2024-11-30 20:41:28,165 - INFO - Καταγράφηκαν μετρικές: {'execution_time': 0.20722174644470215, 'patterns_analyzed': 5, 'citations_analyzed': 4}
+2024-11-30 20:50:52,302 - INFO - Logging system initialized
+2024-11-30 20:50:52,303 - INFO - Database tables created successfully
+2024-11-30 20:50:52,304 - INFO - Counted 8 patterns
+2024-11-30 20:50:52,304 - INFO - Counted 4 citations
+2024-11-30 20:50:52,305 - INFO - Counted 8 patterns
+2024-11-30 20:50:52,305 - INFO - Counted 4 citations
+2024-11-30 20:50:52,443 - INFO - Δημιουργήθηκε γράφημα γλωσσικών μοτίβων
+2024-11-30 20:50:52,516 - INFO - Δημιουργήθηκε γράφημα δικτύου παραπομπών
+2024-11-30 20:50:52,516 - INFO - Counted 8 patterns
+2024-11-30 20:50:52,517 - INFO - Counted 4 citations
+2024-11-30 20:50:52,554 - INFO - Καταγράφηκαν μετρικές: {'execution_time': 0.2146143913269043, 'patterns_analyzed': 8, 'citations_analyzed': 4}

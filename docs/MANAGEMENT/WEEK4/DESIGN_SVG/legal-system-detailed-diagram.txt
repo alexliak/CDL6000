@@ -1,0 +1,30 @@
+diagram with:
+
+Color-Coded Layers:
+
+Input Layer (Blue) - Document intake & validation
+Processing Layer (Orange) - Core processing pipeline
+Output Layer (Green) - Results & analysis
+
+
+Component Specifications:
+
+Memory requirements
+Processing times
+Accuracy metrics
+Hardware requirements
+
+
+Tools & Technologies:
+
+Document Processing: PyPDF2, Tesseract
+NLP: NLTK, SpaCy, LegalBERT
+ML: PyTorch, NetworkX
+Visualization: Matplotlib, Seaborn
+
+
+Data Flow:
+
+Arrows showing processing direction
+Communication protocols
+Data formats at each stage
